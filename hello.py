@@ -22,7 +22,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World, from Nick"
+    return "Hello World, from Nick & Masahiro"
 
 @app.route("/ip")
 def get_ip():
